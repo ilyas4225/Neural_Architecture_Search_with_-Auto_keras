@@ -13,3 +13,4 @@ In this section, we will build a classifier on the the different data sets like 
 
 ## Notebook description
 In this repository the notebook ['[autoModel_Cifar100.ipynb'](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/autoModel_Cifar100.ipynb)] contains the autokeras image classifier for cifar100 dataset.
+[]
