@@ -15,5 +15,7 @@ In this section, we will build a classifier on the the different data sets like 
 In this repository the notebook ['[autoModel_Cifar100.ipynb'](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/autoModel_Cifar100.ipynb)] contains the autokeras image classifier for cifar100 dataset.
 
 
-The Cifar10 notebook ['[cifar10_Notebook .ipynb'](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/cifar10_Notebook%20.ipynb)] contains the auto keras classification with  image classifier, customized search space with ResNet architecture with Cifar10 dataset
+The Cifar10 notebook ['[cifar10_Notebook .ipynb'](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/cifar10_Notebook%20.ipynb)] contains the auto keras classification with  image classifier, customized search space with ResNet architecture with Cifar10 dataset.
+
+
 This third notebook in the repository ['[mnist_STL10_DTD.ipynb](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/mnist_STL10_DTD.ipynb)] contains the auto keras classification on the mnist, STL10,DTD dataset with  image classifier, customized search space with ResNet architecture.
