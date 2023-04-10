@@ -27,5 +27,6 @@ The AutoModel is initialized with the defined input and output nodes, and traine
 The architecture discovered by the AutoModel is a combination of ResNet50 feature extractor and a few Dense layers for classification. The exact architecture can be seen in the summary of the exported model:
 
 
- 
+ ![1](https://user-images.githubusercontent.com/101690101/230955044-76d27e7f-134a-40b6-b0ab-d7b2c8f4ab45.png)
+
 
