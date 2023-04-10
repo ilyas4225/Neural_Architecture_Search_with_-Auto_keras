@@ -26,38 +26,6 @@ The AutoModel is initialized with the defined input and output nodes, and traine
 ['[autoModel_Cifar100.ipynb'](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/autoModel_Cifar100.ipynb)] 
 The architecture discovered by the AutoModel is a combination of ResNet50 feature extractor and a few Dense layers for classification. The exact architecture can be seen in the summary of the exported model:
 
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- input_1 (InputLayer)        [(None, 32, 32, 3)]       0         
-                                                                 
- cast_to_float32 (CastToFloa  (None, 32, 32, 3)        0         
- t32)                                                            
-                                                                 
- resnet50 (Functional)       (None, 1, 1, 2048)        23587712  
-                                                                 
- flatten (Flatten)           (None, 2048)              0         
-                                                                 
- dense (Dense)               (None, 32)                65568     
-                                                                 
- re_lu (ReLU)                (None, 32)                0         
-                                                                 
- dense_1 (Dense)             (None, 32)                1056      
-                                                                 
- re_lu_1 (ReLU)              (None, 32)                0         
-                                                                 
- dropout (Dropout)           (None, 32)                0         
-                                                                 
- dense_2 (Dense)             (None, 100)               3300      
-                                                                 
- classification_head_1 (Soft  (None, 100)              0         
- max)                                                            
-                                                                 
-=================================================================
-Total params: 23,657,636
-Trainable params: 23,604,516
-Non-trainable params: 53,120
-_________________________________________________________________
 
  
 
