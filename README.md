@@ -21,12 +21,12 @@ The Cifar10 notebook ['[cifar10_Notebook .ipynb'](https://github.com/ilyas4225/N
 This third notebook in the repository ['[mnist_STL10_DTD.ipynb](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/mnist_STL10_DTD.ipynb)] contains the auto keras classification on the mnist, STL10,DTD dataset with  image classifier, customized search space with ResNet architecture.
 
 ## Result Discussion
-###Results with AutoModel
+### Results with AutoModel
 The AutoModel is initialized with the defined input and output nodes, and trained on the CIFAR-100 dataset for 2 epochs and max_trials  are 2. 
 ['[autoModel_Cifar100.ipynb'](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/autoModel_Cifar100.ipynb)] 
 The architecture discovered by the AutoModel is a combination of ResNet50 feature extractor and a few Dense layers for classification. The exact architecture can be seen in the summary of the exported model:
 
 
- ![1](https://user-images.githubusercontent.com/101690101/230955044-76d27e7f-134a-40b6-b0ab-d7b2c8f4ab45.png)
+ (https://user-images.githubusercontent.com/101690101/230955044-76d27e7f-134a-40b6-b0ab-d7b2c8f4ab45.png)
 
 
