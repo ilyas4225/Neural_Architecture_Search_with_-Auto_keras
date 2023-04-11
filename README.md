@@ -1,4 +1,4 @@
-# Neural_Architecture_Search_with_-Auto_keras
+# Neural_Architecture_Search_with_Auto_keras
 
 Neural architecture search is a technique that automates the designing of neural networks for solving a particular problem. Auto-Keras is a framework for automated machine learning (AutoML), which includes support for neural architecture search (NAS) for deep learning models.Auto-Keras provides an easy-to-use interface for searching for the best neural network architecture for a given task.
 
