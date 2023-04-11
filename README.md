@@ -52,6 +52,7 @@ Here the search space is set to "resnet" to restrict the search space to only Re
 | Dataset  |Autokeras_searching_class|max_trail | Epochs|Accuracy|
 |----------|-------------------------|----------|-------|--------|
 | Cifar10  | ResNet                  | 1        |10     | 44.12% |
+| mnist    | ResNet                  | 1        |10     | 98.55% |
 
 The architecture Summary on Cifar10 when searching space is customized with resnet:
 
