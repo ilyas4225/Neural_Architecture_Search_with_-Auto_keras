@@ -33,15 +33,15 @@ The architecture discovered by the AutoModel is a combination of ResNet50 featur
 | Cifar10  | AutoModel               | 2        |2      | 42.57% |
 | STL10    | AutoModel               | 2        |10     | 10.00% |
 
-The exact architecture can be seen in the summary of the exported model on Cifar100:
+#### The exact architecture can be seen in the summary of the exported model on Cifar100:
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/Cifar100_auto.png "AutoModel_Cifar100")
 
-The architecture Summary on Cifar10:
+#### The architecture Summary on Cifar10:
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/cifar10_auto_model.png "AutoModel_Cifar10")
 
-The architecture Summary on STL10:
+#### The architecture Summary on STL10:
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_auto_model.png "AutoModel_ST10")
 
@@ -56,7 +56,7 @@ Here the search space is set to "resnet" to restrict the search space to only Re
 | mnist    | ResNet                  | 1        |10     | 98.55% |
 
 
-The architecture Summary on Cifar10 when searching space is customized with resnet:
+#### The architecture Summary on Cifar10 when searching space is customized with resnet:
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/cifar10_customized.png "resnet_cifar10")
 
@@ -73,7 +73,7 @@ The architecture Summary on Cifar10 when searching space is customized with resn
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_img_clf.png "STL10_ak_clf")
 
-The architecture Summary on Cifar10 with Ak.imageclassifier:
+#### The architecture Summary on Cifar10 with Ak.imageclassifier:
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/cifar10_ak_clf.png "cifar10")
 
