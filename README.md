@@ -26,7 +26,7 @@ The AutoModel is initialized with the defined input and output nodes, and traine
 ['[autoModel_Cifar100.ipynb'](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/autoModel_Cifar100.ipynb)] 
 The architecture discovered by the AutoModel is a combination of ResNet50 feature extractor and a few Dense layers for classification. The exact architecture can be seen in the summary of the exported model:
 
-
+![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/Cifar100_auto.png "AutoModel_Cifar100")
 
 
 
