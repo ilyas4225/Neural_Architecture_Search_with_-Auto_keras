@@ -22,8 +22,8 @@ This third notebook in the repository ['[mnist_STL10_DTD.ipynb](https://github.c
 
 ## Result Discussion
 ### Results with AutoModel
-The AutoModel is initialized with the defined input and output nodes, and trained on the CIFAR-100 dataset for 2 epochs and max_trials  are 2. 
-['[autoModel_Cifar100.ipynb'](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/autoModel_Cifar100.ipynb)] 
+The model discovered by AutoKeras for the CIFAR-100,cifar10,STL10 dataset has a series of convolutional and dense layers, as well as dropout and normalization layers. The architecture of the model can be seen in the summary provided below
+
 The architecture discovered by the AutoModel is a combination of ResNet50 feature extractor and a few Dense layers for classification. 
 
 | Dataset  |Autokeras_searching_class|max_trail | Epochs|Accuracy|
