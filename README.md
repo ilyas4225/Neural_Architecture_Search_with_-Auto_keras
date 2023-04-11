@@ -21,6 +21,7 @@ The Cifar10 notebook ['[cifar10_Notebook .ipynb'](https://github.com/ilyas4225/N
 This third notebook in the repository ['[mnist_STL10_DTD.ipynb](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/mnist_STL10_DTD.ipynb)] contains the auto keras classification on the mnist, STL10,DTD dataset with  image classifier, customized search space with ResNet architecture.
 
 ## Result Discussion
+
 ### Results with AutoModel
 The model discovered by AutoKeras for the CIFAR-100,cifar10,STL10 dataset has a series of convolutional and dense layers, as well as dropout and normalization layers. The architecture of the model can be seen in the summary provided below
 
@@ -54,8 +55,23 @@ Here the search space is set to "resnet" to restrict the search space to only Re
 | Cifar10  | ResNet                  | 1        |10     | 44.12% |
 | mnist    | ResNet                  | 1        |10     | 98.55% |
 
+
 The architecture Summary on Cifar10 when searching space is customized with resnet:
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/cifar10_customized.png "resnet_cifar10")
+
+
+### Results by Ak.classifier
+
+| Dataset  |Autokeras_searching_class|max_trail | Epochs|Accuracy|
+|----------|-------------------------|----------|-------|--------|
+| Cifar10  | ak.ImageClassifier      | 1        |10     | 73.49% |
+| mnist    | ak.ImageClassifier      | 1        |10     | 98.87% |
+| STL10    | ak.ImageClassifier      | 1        |10     | 56.87% |
+
+The architecture Summary on STL10 with Ak.imageclassifier:
+
+![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_img_clf.png "STL10_ak_clf")
+
 
 
