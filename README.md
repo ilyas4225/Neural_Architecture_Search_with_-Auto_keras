@@ -42,4 +42,4 @@ The architecture Summary on Cifar10:
 
 The architecture Summary on STL10:
 
-![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_auto_model.png "AutoModel_ST10)
+![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_auto_model.png "AutoModel_ST10")
