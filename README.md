@@ -44,6 +44,17 @@ The architecture Summary on STL10:
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_auto_model.png "AutoModel_ST10")
 
+
 ### Results by Customized Search Space
+Customized search space in AutoKeras refers to the ability to define a specific set of possible model architectures and hyperparameters that AutoKeras should explore during its search for the best model for a given task.
+Here the search space is set to "resnet" to restrict the search space to only ResNet architectures.  Search space for AutoKeras to find an optimal image classification model using ResNet architectures.
+
+| Dataset  |Autokeras_searching_class|max_trail | Epochs|Accuracy|
+|----------|-------------------------|----------|-------|--------|
+| Cifar10  | ResNet                  | 1        |10     | 44.12% |
+
+The architecture Summary on Cifar10 when searching space is customized with resnet:
+
+![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/cifar10_customized.png "resnet_cifar10")
 
 
