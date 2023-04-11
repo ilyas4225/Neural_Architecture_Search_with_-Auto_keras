@@ -73,5 +73,10 @@ The architecture Summary on STL10 with Ak.imageclassifier:
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_img_clf.png "STL10_ak_clf")
 
+The architecture Summary on Cifar10 with Ak.imageclassifier:
+
+![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/cifar10_ak_clf.png "cifar10")
+
+
 
 
