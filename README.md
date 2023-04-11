@@ -69,7 +69,7 @@ The architecture Summary on Cifar10 when searching space is customized with resn
 | mnist    | ak.ImageClassifier      | 1        |10     | 98.87% |
 | STL10    | ak.ImageClassifier      | 1        |10     | 56.87% |
 
-The architecture Summary on STL10 with Ak.imageclassifier:
+#### The architecture Summary on STL10 with Ak.imageclassifier:
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_img_clf.png "STL10_ak_clf")
 
