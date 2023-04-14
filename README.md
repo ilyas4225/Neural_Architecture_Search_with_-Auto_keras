@@ -63,6 +63,11 @@ Here the search space is set to "resnet" to restrict the search space to only Re
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/cifar10_customized.png "resnet_cifar10")
 
 
+#### The architecture Summary on DTD when searching space is customized with resnet:
+
+![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/DTD_Customized%20search.png  "resnet_DTD")
+
+
 ### Results by Ak.classifier
 
 | Dataset  |Autokeras_searching_class|max_trail | Epochs|Accuracy|
