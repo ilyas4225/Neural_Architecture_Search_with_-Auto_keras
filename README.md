@@ -22,6 +22,23 @@ This third notebook in the repository ['[mnist_STL10_DTD.ipynb](https://github.c
 
 ## Result Discussion
 
+
+### Results by Ak.classifier
+
+| Dataset  |Autokeras_searching_class|max_trail | Epochs|Accuracy|
+|----------|-------------------------|----------|-------|--------|
+| Cifar10  | ak.ImageClassifier      | 1        |10     | 73.49% |
+| Cifar100 | ak.ImageClassifier      | 2        |10     | 39.49% |
+| mnist    | ak.ImageClassifier      | 1        |10     | 98.87% |
+| STL10    | ak.ImageClassifier      | 1        |10     | 56.87% |
+
+#### The architecture Summary on STL10 with Ak.imageclassifier:
+
+![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_img_clf.png "STL10_ak_clf")
+
+#### The architecture Summary on Cifar10 with Ak.imageclassifier:
+
+![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/cifar10_ak_clf.png "cifar10")
 ### Results with AutoModel
 The model discovered by AutoKeras for the CIFAR-100,cifar10,STL10 dataset has a series of convolutional and dense layers, as well as dropout and normalization layers. The architecture of the model can be seen in the summary provided below
 
@@ -67,22 +84,6 @@ Here the search space is set to "resnet" to restrict the search space to only Re
 
 ![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/DTD_Customized%20search.png  "resnet_DTD")
 
-
-### Results by Ak.classifier
-
-| Dataset  |Autokeras_searching_class|max_trail | Epochs|Accuracy|
-|----------|-------------------------|----------|-------|--------|
-| Cifar10  | ak.ImageClassifier      | 1        |10     | 73.49% |
-| mnist    | ak.ImageClassifier      | 1        |10     | 98.87% |
-| STL10    | ak.ImageClassifier      | 1        |10     | 56.87% |
-
-#### The architecture Summary on STL10 with Ak.imageclassifier:
-
-![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/STL10_img_clf.png "STL10_ak_clf")
-
-#### The architecture Summary on Cifar10 with Ak.imageclassifier:
-
-![](https://github.com/ilyas4225/Neural_Architecture_Search_with_-Auto_keras/blob/main/images/cifar10_ak_clf.png "cifar10")
 
 
 
